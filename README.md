@@ -2,7 +2,7 @@
 
 C'est Noël et pour l'occasion le Pokedex a prévu une grande mise à jour ! 
 
-Lien du site en ligne : https://sad-thompson-a924b2.netlify.app/
+Lien du site en ligne : https://pokedex-k5.netlify.app/
 
 ### Résolution des tickets
 
