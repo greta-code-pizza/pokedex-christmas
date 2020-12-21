@@ -1,5 +1,4 @@
 # Pokedex
----
 
 C'est Noël et pour l'occasion le Pokedex a prévu une grande mise à jour ! 
 
@@ -7,9 +6,10 @@ Lien du site en ligne : https://sad-thompson-a924b2.netlify.app/
 
 ### Résolution des tickets
 
-La première étape est de se partager et de résoudre les différents tickets (onglet issues)
+La première étape est de se partager et de résoudre les différents tickets (onglet issues).
 
 Pour ce faire vous devez :
+
 - Vous attribuer le ticket que vous souhaitez résoudre
 - Résoudre le ticket dans une branche que vous nommez comme ceci : `#id-feature-name``
 - Faire une pull request auprès d'un de vos collègue
