@@ -12,8 +12,9 @@ body {
 }
 
 
-/* #header {
-    border-bottom: 4px solid #FF0000; 
+#header {
+    border-bottom: 4px solid  #e0ddf1;
+
     background-color: #FFF;
 }*/
 .light {
@@ -128,4 +129,4 @@ footer {
 
 .lavande{
     background-color:#ddccff;
-}
+
