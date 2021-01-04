@@ -17,13 +17,13 @@ let trans = () => {
     }, 1000)
 }
 
-let elementType = document.getElementsByClassName("card");
+let pokemonType = document.getElementsByClassName("card");
 
 const plantsType = document.getElementsByClassName("fa-leaf");
 const poisonType = document.getElementsByClassName("fa-skull-crossbones");
 
+pokemonType.addEventListener('onclick', function type() {
+    if () {
 
-
-function Type(elementType) {
-    
-}
+    };
+});
