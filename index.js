@@ -16,3 +16,7 @@ let trans = () => {
         document.documentElement.classList.remove('transition')
     }, 1000)
 }
+
+let elementType = document.getElementsByClassName("card");
+
+const plantsType = document.getElementsByClassName("");
