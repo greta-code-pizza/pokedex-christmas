@@ -19,4 +19,11 @@ let trans = () => {
 
 let elementType = document.getElementsByClassName("card");
 
-const plantsType = document.getElementsByClassName("");
+const plantsType = document.getElementsByClassName("fa-leaf");
+const poisonType = document.getElementsByClassName("fa-skull-crossbones");
+
+
+
+function Type(elementType) {
+    
+}
