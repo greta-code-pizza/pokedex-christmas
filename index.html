@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="fr">
+<html lang="fr" data-theme='light'>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"
@@ -9,11 +9,12 @@
     <link rel="stylesheet" href="bootstrap.min.css" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css" />
+
     <link rel="icon" href="images/favicon.ico" />
 </head>
 <body>
-    <div class="layout" id="header">
-        <div class="container-fluid row">
+    <header  class="layout" id="header">
+       <div class="header-jn container-fluid row">
             <div class="col-3">Dernier pokémon ajouté:<a href="#">Rattatac</a></div>
             <div class="col-3">Types:
                 <button type="button" class="btn btn-outline-secondary"><i class="fas fa-paw"></i></button>
@@ -25,19 +26,18 @@
                 <button type="button" class="btn btn-outline-insect"><i class="fas fa-bug"></i></button>
             </div>
             <div class="col-3">Mode:
-                <label class="switch">
-                    <input type="checkbox">
-                    <span class="slider round"></span>
-                  </label>
+               <input type="checkbox" id="switch" name="theme" /><label for="switch">Toggle</label>
             </div>
         </div>
         <img src="images/logo.png" >
-        <h1 class="shadow-title">Tournoi de Bourg-Palette</h1>
-    </div>
+      
+         
+
+    </header>
 
     <section class="container">
         <div class="row">
-            <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+            <div class="col-12 col-md-6 col-lg-4">
                 <div class="card">
                     <span class="col-2 number badge-secondary">#001</span>
                     <img class="card-img-top" src="images/001.png" alt="Bulbizarre">
@@ -49,7 +49,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+            <div class="col-12 col-md-6 col-lg-4">
                 <div class="card">
                     <span class="col-2 number badge-secondary">#002</span>
                     <img class="card-img-top" src="images/002.png" alt="Herbizarre">
@@ -61,7 +61,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+            <div class="col-12 col-md-6 col-lg-4">
                 <div class="card">
                     <span class="col-2 number badge-secondary">#003</span>
                     <img class="card-img-top" src="images/003.png" alt="Florizarre">
@@ -73,7 +73,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+            <div class="col-12 col-md-6 col-lg-4">
                 <div class="card">
                     <span class="col-2 number badge-secondary">#004</span>
                     <img class="card-img-top" src="images/004.png" alt="Salamèche">
@@ -84,7 +84,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+          <div class="col-12 col-md-6 col-lg-4">
                 <div class="card">
                     <span class="col-2 number badge-secondary">#005</span>
                     <img class="card-img-top" src="images/005.png" alt="Reptincel">
@@ -95,7 +95,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+            <div class="col-12 col-md-6 col-lg-4">
                 <div class="card">
                     <span class="col-2 number badge-secondary">#006</span>
                     <img class="card-img-top" src="images/006.png" alt="Dracaufeu">
@@ -107,7 +107,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+            <div class="col-12 col-md-6 col-lg-4">
                 <div class="card">
                     <span class="col-2 number badge-secondary">#007</span>
                     <img class="card-img-top" src="images/007.png" alt="Carapuce">
@@ -118,7 +118,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+           <div class="col-12 col-md-6 col-lg-4">
                 <div class="card">
                     <span class="col-2 number badge-secondary">#008</span>
                     <img class="card-img-top" src="images/008.png" alt="Carabaffe">
@@ -129,7 +129,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+           <div class="col-12 col-md-6 col-lg-4">
                 <div class="card">
                     <span class="col-2 number badge-secondary">#009</span>
                     <img class="card-img-top" src="images/009.png" alt="Tortank">
@@ -140,7 +140,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+           <div class="col-12 col-md-6 col-lg-4">
                 <div class="card">
                     <span class="col-2 number badge-secondary">#010</span>
                     <img class="card-img-top" src="images/010.png" alt="Chenipan">
@@ -151,7 +151,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+           <div class="col-12 col-md-6 col-lg-4">
                 <div class="card">
                     <span class="col-2 number badge-secondary">#011</span>
                     <img class="card-img-top" src="images/011.png" alt="Chrysacier">
@@ -162,7 +162,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+            <div class="col-12 col-md-6 col-lg-4">
                 <div class="card">
                     <span class="col-2 number badge-secondary">#012</span>
                     <img class="card-img-top" src="images/012.png" alt="Papilusion">
@@ -174,7 +174,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+           <div class="col-12 col-md-6 col-lg-4">
                 <div class="card">
                     <span class="col-2 number badge-secondary">#013</span>
                     <img class="card-img-top" src="images/013.png" alt="Aspicot">
@@ -186,7 +186,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+           <div class="col-12 col-md-6 col-lg-4">
                 <div class="card">
                     <span class="col-2 number badge-secondary">#014</span>
                     <img class="card-img-top" src="images/014.png" alt="Coconfort">
@@ -198,7 +198,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+            <div class="col-12 col-md-6 col-lg-4">
                 <div class="card">
                     <span class="col-2 number badge-secondary">#015</span>
                     <img class="card-img-top" src="images/015.png" alt="Dardargnan">
@@ -210,7 +210,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+           <div class="col-12 col-md-6 col-lg-4">
                 <div class="card">
                     <span class="col-2 number badge-secondary">#016</span>
                     <img class="card-img-top" src="images/016.png" alt="Roucoul">
@@ -222,7 +222,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+           <div class="col-12 col-md-6 col-lg-4">
                 <div class="card">
                     <span class="col-2 number badge-secondary">#017</span>
                     <img class="card-img-top" src="images/017.png" alt="Roucoups">
@@ -234,10 +234,8 @@
                     </div>
                 </div>
             </div>
-            <div id="warning">
-                <p>Ce morceau de code permet de voir que la page est chargée correctement ! Ne pas toucher svp !</p>
-            </div>
-            <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+            
+          <div class="col-12 col-md-6 col-lg-4">
                 <div class="card">
                     <span class="col-2 number badge-secondary">#018</span>
                     <img class="card-img-top" src="images/018.png" alt="Roucarnage">
@@ -249,7 +247,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+           <div class="col-12 col-md-6 col-lg-4">
                 <div class="card">
                     <span class="col-2 number badge-secondary">#019</span>
                     <img class="card-img-top" src="images/019.png" alt="Rattata">
@@ -260,7 +258,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+           <div class="col-12 col-md-6 col-lg-4">
                 <div class="card">
                     <span class="col-2 number badge-secondary">#020</span>
                     <img class="card-img-top" src="images/020.png" alt="Rattatac">
@@ -268,13 +266,14 @@
                         <h5 class="card-title">Rattatac <button type="button" class="btn btn-outline-secondary"><i class="fas fa-paw"></i></button> <span class="badge badge-primary">0.7m</span><span class="badge badge-primary">18.5kg</span></h5>
                         <p class="card-text">L'Arène est située au centre de Bourg-Palette, au sud de la région de Kanto à seulement 2mn à pied de l'incubateur du célèbre Professeur Chen ! </p>
                         
+
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <footer class="layout">
+    <footer>
         <div class="container">
             <div class="row">
                 <div class="col-sm-4 border-right">
@@ -297,7 +296,7 @@
         </div>
     </footer>
 
-    <script type="text/javascript" src="magicarp.min.js"></script>
+    
     <script type="text/javascript" src="slider.js"></script>
 </body>
 </html>
