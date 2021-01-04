@@ -14,8 +14,9 @@ body {
 
 #header {
     border-bottom: 4px solid  #e0ddf1;
+
     background-color: #FFF;
-}
+}*/
 .light {
     color: #FFF;
 }
@@ -67,12 +68,12 @@ body {
     font-size: 0.8rem;
 }
 #header img {
-    margin: 0 auto;
+    /* margin: 0 auto; */
     display: block;
 }
-.layout {
+/* .layout {
     padding: 10px 0;
-}
+} */
 #warning {
     background-color: yellow;
     color: #000;
@@ -125,3 +126,7 @@ footer {
     border: 1px solid #15f3bc;
     color: #FFF;
 }
+
+.lavande{
+    background-color:#ddccff;
+
